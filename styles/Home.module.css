@@ -3,5 +3,15 @@
 
 }
 
+.spacing > .datetime,.content{
+  padding-top:20px;
+}
 
+.spacing > h2{
+  padding-top: 40px;
+}
 
+.image{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

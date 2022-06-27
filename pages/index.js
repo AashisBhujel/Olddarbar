@@ -12,17 +12,64 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Container>
-        <section>
-          <div>
+      <section>
+        <Container>
+          <div className={styles.spacing}>
             <h2>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy alley
               of industry.
             </h2>
             <p className={styles.datetime}>
-              5min Read <span>doticon</span> Jan 18 2022
+              5min Read <span>⚫</span> Jan 18 2022
             </p>
+            <p className={styles.content}>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy alley
+              of.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy alley of.Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy alley of.Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy alley of.Lorem Ipsum is simply dummy
+              text of the printing and typesetting industry. Lorem Ipsum has
+              been the industry's standard dummy alley of.Lorem Ipsum is simply
+              dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy alley of.Lorem Ipsum is
+              simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy alley of.Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy alley of.Lorem
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy alley
+              of.Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry. Lorem Ipsum has been the industry's standard
+              dummy alley of. Lorem Ipsum is simply dummy text of the printing
+              and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy alley of.Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy alley of.Lorem Ipsum is simply dummy
+              text of the printing and typesetting industry.
+            </p>
+            
+          </div>
+        </Container>
+
+        <div className={styles.image}>
+          <Image
+            src="/heritage2.jpg"
+            alt="Heritagepicture"
+            width={50}
+            height={20}
+            layout="responsive"
+          />
+        </div>
+      </section>
+
+      <section>
+        <Container>
+          <div>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy alley
@@ -53,18 +100,18 @@ export default function Home() {
               text of the printing and typesetting industry.
             </p>
           </div>
-        </section>
-      </Container>
+        </Container>
 
-      <div>
-        <Image
-          src="/heritage1.jpg"
-          alt="Heritagepicture"
-          width={50}
-          height={18}
-          layout="responsive"
-        />
-      </div>
+        <div className={styles.image}>
+          <Image
+            src="/heritage1.jpg"
+            alt="Heritagepicture"
+            width={50}
+            height={20}
+            layout="responsive"
+          />
+        </div>
+      </section>
     </div>
   );
 }
